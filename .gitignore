@@ -1,0 +1,31 @@
+# Build and packaging output
+target/
+*.class
+*.jar
+*.war
+*.ear
+
+# Local database storage
+data/
+*.mv.db
+*.trace.db
+
+# Environment variables (preserve template only)
+.env
+.env.*.local
+!.env.example
+
+# Logs
+*.log
+
+# IDE & Editor files
+.idea/
+*.iml
+.vscode/
+.settings/
+.project
+.classpath
+
+# macOS & OS artifacts
+.DS_Store
+Thumbs.db
